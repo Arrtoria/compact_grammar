@@ -35,3 +35,15 @@ I asked chatgpt to write a simple comment on my code for your reference.
  * - notok: Array to mark characters that cannot reach the terminator.
  */
 
+The method of use is to enter ./runsh in the shell
+You can modify input.txt to see if you can achieve your expected results
+
+Input format:
+Please do not use something like
+S->A
+S->B
+Instead,You should use something like
+S->A|B
+
+Only supports Context Free Grammar.
+
